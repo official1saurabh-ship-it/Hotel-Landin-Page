@@ -1,5 +1,5 @@
 import React from 'react'
-import biosoftech from "../assets/biosoftech.jpeg"
+import biosoftech from "../assets/Hotel1.png"
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className='flex items-center justify-between gap-8  border-b px-14 sticky top-0 z-50 bg-white shadow '>
             <div>
-                <div onClick={() => navigate("/")} className='bg-indigo-900 w-60 h-20 hover:cursor-pointer'>
+                <div onClick={() => navigate("/")} className=' w-60 h-20 hover:cursor-pointer'>
                     <img src={biosoftech} alt="" className='w-full h-full object-cover' />
                 </div>
             </div>
