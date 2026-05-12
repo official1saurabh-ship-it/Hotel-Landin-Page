@@ -34,7 +34,7 @@ const SectionHeader = ({ title, subtitle }) => (
 const HotelHRMS = () => {
     return (
         <section className="py-20 px-6 bg-gray-50/50 min-h-screen">
-            <div className="min-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto">
                 {/* Main Header */}
                 <div className="text-center mb-20">
                     <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
